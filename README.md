@@ -1,68 +1,30 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React-Trello App
+This is a sample react trello app done step-by-step.
 
-## Available Scripts
 
-In the project directory, you can run:
+Instructions
+First clone this repository.
 
-### `npm start`
+$ git clone https://github.com/Hemanth522-M/my-app-reacttrello.git
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Install dependencies. Make sure you already have nodejs & npm installed in your system.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+$ npm install # or yarn
+Run it
 
-### `npm test`
+$ npm start # or yarn start
+Steps
+Each step is a branch. Check out to the step you want to test.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+$ git checkout <step-number>    # eg: git checkout step-1
+step-0 - Setup app using create-react-app.
+step-1 - Extract components: Header & Home & ListItems & Create board & ToDoItemsForm & Common css.
+step-2 - Add some JSX for the react-trello app.
+step-3 - Header component to display Home Tab(Home icon), Help Tab(Help icon), Create board hyper link.
+step-4 - In Header component click on Home icon to display JSON format data.
+step-5 - And aslo, In Header component click on create board hyper link it go to create board component.
+step-6 - In that create board component,to display create new board button, click on that button open dialog           box, In that dialog box to display text field and create board button, click on button it creates              board.
+step-7 - In that created board, to display text field and add item button, enter text and then click on add             item button , it creates to do items.
+step-10 - After that to do items should be editable, drag and drop from one board to another borad.
+step-11 - In Header component, click on help icon , to display name & toast notification. 
+step-12 - Finalization of react-trello app.

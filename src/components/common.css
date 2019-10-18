@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+    
+
+.App {
+    font-family: sans-serif;
+    background: blue;
+    width:100%; 
+    margin: -22px auto;
+}
+
+
+#header { 
+    color: white;
+    text-align: center;
+}
+
+.createBoard {
+    color: 'white'
+}
