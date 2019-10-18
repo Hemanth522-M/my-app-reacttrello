@@ -21,11 +21,9 @@ _Node.JS and npm must be installed. Download and install them from [here](https:
 
 
 ## Steps
-Each step is a branch. Check out to the step you want to test.
 
-$ git checkout <step-number>    # eg: git checkout step-1
 - Setup app using create-react-app.
-- Extract components: Header & Home & ListItems & Create board & ToDoItemsForm & Common css.
+- Added components: Header & Home & ListItems & Create board & ToDoItemsForm & Common css.
 - Add some JSX for the react-trello app.
 - Header component to display Home Tab(Home icon), Help Tab(Help icon), Create board hyper link.
 - In Header component click on Home icon to display JSON format data.
@@ -43,5 +41,5 @@ $ git checkout <step-number>    # eg: git checkout step-1
 
 ## Authors
 
-- **Hemanth Mudham** 
+- **Hemanth M** 
 
