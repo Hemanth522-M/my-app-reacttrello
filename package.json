@@ -10,7 +10,7 @@
     "react-dom": "^16.10.2",
     "react-draggable": "^4.0.3",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0",
+    "react-scripts": "5.0.1",
     "react-toastify": "^5.4.0",
     "react-transition-group": "^4.3.0",
     "react-trello": "^2.2.3"
